@@ -1,0 +1,11 @@
+Example of SQL Query for statistical analysis
+
+SELECT MIN(release_year) AS min_year,
+MAX(release_year) AS max_year,
+AVG(release_year) AS avg_year,
+COUNT(release_year) AS count_release_year,
+MIN(rental_rate) AS min_rental_rate,
+MAX(rental_rate) AS max_rental_rate,
+AVG(rental_rate) AS avg_rental_rate,
+COUNT(rental_rate) AS count_rental_rate
+FROM film
