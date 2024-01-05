@@ -1,0 +1,14 @@
+Example of SQL Query to perform data check
+
+SELECT *
+FROM customer
+WHERE customer_id IS null
+OR store_id IS null
+OR first_name IS null
+OR last_naem IS null
+OR email IS null
+OR address_id IS null
+OR activebool IS null
+OR create_date IS null
+OR last_update IS null
+OR active IS null
